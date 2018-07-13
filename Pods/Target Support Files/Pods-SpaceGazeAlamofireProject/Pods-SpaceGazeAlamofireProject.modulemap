@@ -1,0 +1,6 @@
+framework module Pods_SpaceGazeAlamofireProject {
+  umbrella header "Pods-SpaceGazeAlamofireProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

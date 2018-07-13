@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C33BA1EB46F8C741790E7CC1 /* Pods_SpaceGazeAlamofireProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1113D38084CA7E5647CE8AA4 /* Pods_SpaceGazeAlamofireProject.framework */; };
+		D4E4896A20F8A99B00FEAB07 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E4896920F8A99B00FEAB07 /* ViewControllerTableViewCell.swift */; };
+		D4E4896C20F8ABAA00FEAB07 /* nasaImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E4896B20F8ABAA00FEAB07 /* nasaImage.swift */; };
 		D4F9ADFB20F89D10002C94AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F9ADFA20F89D10002C94AE /* AppDelegate.swift */; };
 		D4F9ADFD20F89D10002C94AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F9ADFC20F89D10002C94AE /* ViewController.swift */; };
 		D4F9AE0020F89D10002C94AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F9ADFE20F89D10002C94AE /* Main.storyboard */; };
@@ -15,6 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1113D38084CA7E5647CE8AA4 /* Pods_SpaceGazeAlamofireProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceGazeAlamofireProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB8A818F26AA93876A57221 /* Pods-SpaceGazeAlamofireProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceGazeAlamofireProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpaceGazeAlamofireProject/Pods-SpaceGazeAlamofireProject.debug.xcconfig"; sourceTree = "<group>"; };
+		5FD653B3346784AB789A974B /* Pods-SpaceGazeAlamofireProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceGazeAlamofireProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpaceGazeAlamofireProject/Pods-SpaceGazeAlamofireProject.release.xcconfig"; sourceTree = "<group>"; };
+		D4E4896920F8A99B00FEAB07 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		D4E4896B20F8ABAA00FEAB07 /* nasaImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nasaImage.swift; sourceTree = "<group>"; };
 		D4F9ADF720F89D10002C94AE /* SpaceGazeAlamofireProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceGazeAlamofireProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F9ADFA20F89D10002C94AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4F9ADFC20F89D10002C94AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C33BA1EB46F8C741790E7CC1 /* Pods_SpaceGazeAlamofireProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10265C9E20081DD3AD1C5ACC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DB8A818F26AA93876A57221 /* Pods-SpaceGazeAlamofireProject.debug.xcconfig */,
+				5FD653B3346784AB789A974B /* Pods-SpaceGazeAlamofireProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCBD04F16E1800D0D2FA3594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1113D38084CA7E5647CE8AA4 /* Pods_SpaceGazeAlamofireProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D4F9ADEE20F89D0F002C94AE = {
 			isa = PBXGroup;
 			children = (
 				D4F9ADF920F89D10002C94AE /* SpaceGazeAlamofireProject */,
 				D4F9ADF820F89D10002C94AE /* Products */,
+				10265C9E20081DD3AD1C5ACC /* Pods */,
+				BCBD04F16E1800D0D2FA3594 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +84,8 @@
 			children = (
 				D4F9ADFA20F89D10002C94AE /* AppDelegate.swift */,
 				D4F9ADFC20F89D10002C94AE /* ViewController.swift */,
+				D4E4896B20F8ABAA00FEAB07 /* nasaImage.swift */,
+				D4E4896920F8A99B00FEAB07 /* ViewControllerTableViewCell.swift */,
 				D4F9ADFE20F89D10002C94AE /* Main.storyboard */,
 				D4F9AE0120F89D10002C94AE /* Assets.xcassets */,
 				D4F9AE0320F89D10002C94AE /* LaunchScreen.storyboard */,
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4F9AE0920F89D11002C94AE /* Build configuration list for PBXNativeTarget "SpaceGazeAlamofireProject" */;
 			buildPhases = (
+				715C2CCC152A229E3B0932D2 /* [CP] Check Pods Manifest.lock */,
 				D4F9ADF320F89D0F002C94AE /* Sources */,
 				D4F9ADF420F89D0F002C94AE /* Frameworks */,
 				D4F9ADF520F89D0F002C94AE /* Resources */,
+				A3F803C74A5CB7C6CE56809A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +162,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		715C2CCC152A229E3B0932D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpaceGazeAlamofireProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F803C74A5CB7C6CE56809A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpaceGazeAlamofireProject/Pods-SpaceGazeAlamofireProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpaceGazeAlamofireProject/Pods-SpaceGazeAlamofireProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D4F9ADF320F89D0F002C94AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E4896C20F8ABAA00FEAB07 /* nasaImage.swift in Sources */,
 				D4F9ADFD20F89D10002C94AE /* ViewController.swift in Sources */,
 				D4F9ADFB20F89D10002C94AE /* AppDelegate.swift in Sources */,
+				D4E4896A20F8A99B00FEAB07 /* ViewControllerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +353,7 @@
 		};
 		D4F9AE0A20F89D11002C94AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB8A818F26AA93876A57221 /* Pods-SpaceGazeAlamofireProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +372,7 @@
 		};
 		D4F9AE0B20F89D11002C94AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD653B3346784AB789A974B /* Pods-SpaceGazeAlamofireProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
